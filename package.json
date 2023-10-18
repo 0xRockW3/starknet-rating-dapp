@@ -1,0 +1,33 @@
+{
+  "name": "voterock-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "@starknet-react/chains": "^0.0.0",
+    "@starknet-react/core": "^1.0.4",
+    "get-starknet-core": "^3.2.0",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-spinners": "^0.13.8",
+    "starknet": "^5.19.5"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "autoprefixer": "^10.4.16",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "typescript": "4.9.5"
+  }
+}

@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #fdfdfd;
+}
+
+a {
+    cursor: pointer;
+    transition: ease all .3s;
+    color: navy;
+    font-weight: 500;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.ratings_list {
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.rating-card {
+    background: #eee;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 40px;
+    padding-top: 20px;
+    max-width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center
+}
+
+
+.connect_wallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.connector_wallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    margin: 5px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+
+.app-cont {
+    margin-top: 150px;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.profileBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    font-weight: 500;
+    background: #dedede;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+a.profile img {
+    border-radius: 50%;
+    padding-bottom: 5px;
+}
+
+.logo {
+    position: relative;
+}
+
+.textLogo {
+    font-size: 1.99rem;
+    font-weight: bold;
+}
+
+.textLogo span {
+    display: block;
+    line-height: 2rem;
+}
+
+.starknet {
+    max-width: 103px;
+}
+
+h1.textLogo {
+    text-align: left;
+    margin-left: 23px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-sm {
+    word-wrap: break-word;
+}
+
+.ratingButtons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trasactionResult {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.tx_status {
+    color: navy;
+    font-weight: bold;
+    background: #e6e6e6;
+    padding: 10px
+}
+
+.errorFields {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
